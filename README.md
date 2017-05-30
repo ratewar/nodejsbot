@@ -1,3 +1,6 @@
+machine.gif
+
+
 # nodejsbot Quick Start
 
  [GitHub Site](https://ratewar.github.io/nodejsbot/)
