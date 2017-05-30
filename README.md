@@ -1,4 +1,4 @@
-machine.gif
+![TheBot](https://raw.githubusercontent.com/ratewar/nodejsbot/master/machine.gif)
 
 
 # nodejsbot Quick Start
