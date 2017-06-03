@@ -20,7 +20,7 @@
 2. Create a Lambda function by going to Lambda Console and using filter Lex and selecting OrderFlowerLex nodejs blueprint
 3. Specify respective roles etc and test Lambda function using Lex Flower bot test event
 4. Go to LEX console select OrderFlower bot and attach the Lambda Function to Initialization and validation code hook and confirmation
-5. **Make sure you never chekin changes with your AWS access key and ID**
+5. **Make sure you never checkin changes with your AWS access key and ID**
 5. Build the bot and publish it by providing an alias name
 
 ## How to call the FlowerBot from your machine
