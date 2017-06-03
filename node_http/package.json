@@ -1,0 +1,16 @@
+{
+  "name": "chatbotui",
+  "version": "1.0.0",
+  "description": "A simple HTML code to call Chatbot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rajat Ratewal <rajatratewal@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}

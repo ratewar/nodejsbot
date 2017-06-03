@@ -10,7 +10,25 @@
 4. **Set-up your Credentials**[AWS Docs](http://docs.aws.amazon.com/cli/latest/userguide/installing.html).
 [Watch the video on setting up credentials Serverless](https://www.youtube.com/watch?v=HSd9uYj2LJA)
 
-## Create a new serverless service
+
+## Create a new chatbot using LEX and Lambda Screens provided by AWS (e.g. Creating OrderFlowers Bot)
+
+1. Go to Lex console and select OrderFlowers as bot
+2. Create a Lambda function by going to Lambda Console and using filter Lex and selecting OrderFlowerLex nodejs blueprint
+3. Specify respective roles etc and test Lambda function using Lex Flower bot test event
+4. Go to LEX console select OrderFlower bot and attach the Lambda Function to Initialization and validation code hook and confirmation
+5. **Make sure you never chekin changes with your AWS access key and ID**
+5. Build the bot and publish it by providing an alias name
+
+## How to call the FlowerBot from your machine
+
+1. There is a folder node_http
+2. Got to folder make sure you have node installed 
+3. Open app.js in your machine set your AWS access key, password and specify Bot Parameters like botName, alias etc in script.
+4. Type node server when you are in teh folder and it will have a web server running at http://localhost:3000
+5. Try your commands from the UI screen
+
+## In case you want to deploy lambda function from your desktop instead of using AWS templates (use below instrcutions)
 
 Create a new service using the Node.js template, specifying a unique name and an optional path for your service.
 
