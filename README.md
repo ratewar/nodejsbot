@@ -1,3 +1,6 @@
+![TheBot](https://raw.githubusercontent.com/ratewar/nodejsbot/master/machine.gif)
+
+
 # nodejsbot Quick Start
 
  [GitHub Site](https://ratewar.github.io/nodejsbot/)
