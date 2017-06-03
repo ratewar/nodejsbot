@@ -31,7 +31,7 @@
 5. **Make sure you never checkin changes with your AWS access key and ID**
 6. Try your utterances from the UI screen
 
-## In case you want to deploy lambda function from your desktop instead of using AWS templates (use below instrcutions)
+## In case you want to deploy lambda function from your desktop instead of using AWS templates (use below instructions)
 
 Create a new service using the Node.js template, specifying a unique name and an optional path for your service.
 
